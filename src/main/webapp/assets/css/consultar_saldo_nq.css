@@ -1,0 +1,131 @@
+body{
+    background-image:linear-gradient(0deg,#1a1446 26.04166567325592%,#992560 ) ; 
+      background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    
+    
+    }
+  .contenedor{
+      width: 100% ;
+    height: auto;  
+      margin: auto;
+    display: block;
+    position: static;
+    margin-bottom: 10%;
+    
+     }
+     .header {
+      background-color: #2120209d;
+      color: #fff;
+      padding: 20px;
+    }
+      .header h1{ 
+      font-family: Arial;
+      font-size: xx-large;
+      margin-left: 5%;
+      color: #fff;
+      display:inline;
+      letter-spacing: 2px;
+      position:static;
+      text-decoration:solid;
+      
+      }
+  .logotipo {
+    height: auto;
+    width: auto; 
+    position:relative; 
+    left:55%;
+    margin-top: 2%;
+    padding-top: 2%; 
+    text-align: center;
+    display: inline;
+    
+  }
+   .logotipo img{
+    max-width: 3%;
+    height: auto;
+    border-radius: 20%;
+    background-color:fuchsia;  
+    display: inline-block;
+    position: static;
+  }
+  .logotipo h3{ 
+    text-align:start;
+   color: #afabab;
+   font-size:x-large ;
+   font-family: cursive;
+   left: 59px;
+   top: -10%;
+   display: inline;
+   position:static; 
+   text-decoration-style: double;
+  }
+  
+  .centro .caja_1{ 
+  margin-left: 28%;
+  position:static;
+  width:50% ;
+  height:90%;
+  background-color: #26252580;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10%;
+  }
+  .caja_1 span{ 
+    padding-top: 15%;
+    padding-bottom: 15%;
+  padding-left: 6%;  
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: x-large; 
+  color: #fff;
+  display: inline;
+  text-align: center start;
+  
+  width: auto;
+  height: auto;
+  display: block;
+  bottom: 10%;
+  }
+  
+  
+  .centro .grid {  
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    color :#fff;  
+    display: inline; 
+    text-align: center;
+    margin-left: 28%;
+    position: static;
+  }
+  
+  .item {   
+    align-content: flex;
+    background-color: #9f9a9a4c;
+    padding: 10px;   
+    height: 30px ;
+    margin-top:0.5% ;
+    width: 200px;
+   display: inline-flex; 
+   text-align: center;
+   border-radius: 10px;
+  }
+  
+  .a1{
+    align-content: flex-end;
+     text-align: center;
+      text-decoration: none ;
+      color: #fff;
+      font-family: Arial;
+    display:flex;
+  } 
+  .i1{ 
+    width: 300px;
+    height:  300px;
+    border-radius: 20%;
+  }
+  
+  

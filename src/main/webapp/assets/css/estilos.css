@@ -1,0 +1,164 @@
+body {
+    background-color: whitesmoke;
+}
+
+.contenedor {
+    width: 100%;
+    display: block;
+    position: static;
+}
+
+.header {
+    background-color: black;
+    border-radius: 40px;
+    color: fff;
+    font-family: Arial;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: static;
+}
+
+.header h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    text-align: center;
+    font-family: Arial;
+    width: auto;
+    height: auto;
+    border: #2d2586 solid;
+    display: inline-block;
+    position: static;
+    color: #fff;
+
+}
+
+.nav {
+    padding-top: 1px;
+    display: inline-block;
+    margin-left: 28%;
+    position: static;
+}
+
+.nav li {
+    margin-right: 5px;
+    display: inline;
+    border: 2px white solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    position: static;
+}
+
+.nav a {
+    margin-top: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+    display: inline-block;
+    font-size: large;
+    position: static;
+}
+
+a:hover {
+    background-color: #bfbcd55b;
+    position: static;
+}
+
+.opciones {
+    width: 60%;
+    height: 70%;
+    margin-left: 22%;
+    margin-right: 50%;
+    border-radius: 10%;
+    border: 4px rebeccapurple solid;
+    background-color: #a56e6e32;
+    position: static;
+}
+
+.centro {
+    display: block;
+    position: relative;
+}
+
+.centro h1 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: xx-large;
+    margin-left: 32%;
+    position: static;
+
+
+}
+
+.centro h3 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: xx-large;
+    margin-left: 45%;
+    position: static;
+
+}
+
+.opciones ul {
+    width: 90%;
+    height: auto;
+    background-color: none;
+    border-radius: 20px;
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    position: static;
+}
+
+.opciones li {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.152);
+    border: 3px transparent solid;
+    border-bottom-color: rgba(128, 128, 128, 0.519);
+    border-right-color: rgba(128, 128, 128, 0.519);
+    position: static;
+}
+
+.opciones img {
+    position: static;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 0%;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.opciones button {
+    position: static;
+    margin-top: 1%;
+    margin-left: 25%;
+    background-color: rgba(226, 28, 28, 0.458);
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: xx-large;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px gray solid;
+}
+
+.opciones a {
+    position: static;
+    text-decoration: none;
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.792);
+}
+
+#b_t {
+    position: static;
+    margin-top: 5px;
+    margin-right: 80px;
+    margin-left: 38%;
+    background-color: #2d258699;
+
+}

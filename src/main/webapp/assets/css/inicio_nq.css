@@ -1,0 +1,132 @@
+
+a{
+
+    color: #ffffff;
+    text-decoration: none;
+    
+    } 
+    a :hover{ 
+      background-color: aliceblue;
+    }
+    .grid-container {
+      display:inline;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      width: auto;
+      height: auto;
+      margin: 1 auto;
+      position:static;
+      top: 250px;
+      left: 50%;
+      transform: translateX(-50%);
+        
+        
+      }
+      
+      .grid-item { 
+       border:2px transparent solid ; 
+        border-radius: 10px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        border-bottom-color:2px gray solid ;
+        border-right-color:3px gray solid ;
+      }
+      
+      img { 
+    
+        max-width:300px;
+        height: 300px;
+         border-bottom: 3px #000000 solid;
+         border-right:6px #000 solid ;
+      }
+    #img1{
+    max-width: 300px;
+        height: 300px;
+        border-radius: 20px
+    }
+    #img2{
+        max-width: 300px;
+        height: 300px;
+        border-radius: 20px
+    }
+    #img3{
+      max-width: 300px;
+      height: 300px;
+      border-radius: 20px
+    }
+    
+    body{
+        background-image:linear-gradient(0deg,#1a1446 26.04166567325592%,#992560 ) ; 
+          background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        
+        
+        }
+    .contenedor{
+        width: 100% ;  
+        margin: auto;
+      padding-bottom: 45%;
+      display: block;
+      position: static; }
+    
+      .header {
+        background-color: #2120209d;
+        color: #fff;
+        padding: 20px;
+      }
+    .header h1{ 
+    font-family: Arial;
+    font-size: xx-large;
+    margin-left: 48%;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 2px;
+    position:static ;
+    display: inline;
+    }
+    .header h3{
+        font-family: Arial;
+        font-size: xx-large;
+        margin-left:0.1%;
+        color: #fff;
+        margin-right: 1%;
+        display: inline-block;
+        letter-spacing: 2px;
+      margin-top: -9px; 
+      margin-left: 5%;
+        position:absolute;
+        
+    }
+    .header img{
+    background-color: #ccc;
+    width: 50px;
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 2px;
+    float: left;
+    top: -20px;
+    position: absolute; 
+    
+    }
+    .centro{
+      margin-top: 8%;;
+    margin-left: 18%;
+    width:auto;
+    height: auto;
+    display: block;
+    position: absolute;
+    }
+    span {
+      margin-top: 1%;
+     width: auto;
+     height: auto;
+     border-radius: 10PX;
+     padding: 1%;
+     border: 3px  rgb(2, 1, 1) solid ;
+    }
+    span a:hover{ 
+      background-color: #b1b1b1;
+    }

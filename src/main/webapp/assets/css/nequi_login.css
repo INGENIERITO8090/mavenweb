@@ -1,0 +1,154 @@
+body{
+	background-image:linear-gradient(0deg,#1a1446 26.04166567325592%,#992560 ) ; 
+	  background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+	
+	
+	}
+.contenedor{
+	width: 100% ;  
+	margin: auto;
+	display: block;
+   }
+ .header {
+  background-color: #2120209d;
+  color: #fff;
+  padding: 20px;
+}
+.header h1{ 
+font-family: Arial;
+font-size: xx-large;
+margin-left: 45%;
+color: #fff;
+display: inline;
+letter-spacing: 2px;
+position:static ;
+}
+.header h3{
+	font-family: Arial;
+	font-size: xx-large;
+	margin-left:0.1%;
+	color: #fff;
+	margin-right: 1%;
+	display: inline-block;
+	letter-spacing: 2px;
+  margin-top: -9px;
+  margin-left: 5%;
+	position:absolute;
+}
+.header img{
+	background-color: #ccc;
+width: 50px;
+height: 50px;
+margin-top: 1px;
+margin-left: -26px;
+float: left;
+top: -20px;
+position: absolute;
+}
+
+
+
+.rectangle8
+{
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	opacity:0.30000001192092896;
+	width:526px;
+	height:398px;
+	position:absolute;
+	left:35%;
+	top:190px;
+
+}
+form { 
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	position: absolute;
+	width:526px;
+	height:300px;
+	left:35%;
+	top:200px; 
+    font-size:30px;
+    font-family:Open Sans; 
+    color:#fff;
+	position: absolute;
+  }
+  
+  label {
+	margin: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+	padding: 20px;
+	border: 2px #fff solid;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	width: 70%;
+	max-width: 500px;
+	box-sizing: border-box; 
+	top: auto;
+	
+  }
+  
+  button[type="submit"] {
+	margin-top: 5px;
+	padding:15px;
+	border-radius:5px;
+	border:none;
+	background-color:#000000;
+	color:#fff;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	height:50px;
+	width:200px; 
+	font-size:30px; 
+	border-radius:10px;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #c01515; 
+  }
+  
+.formulario_login{
+	text-align: center;
+	display: flex;
+	justify-content: center; /* centra horizontalmente */
+	align-items:center; /* centra verticalmente */
+	height: 10vh; /* altura del contenedor */
+}
+
+#img{
+
+  width:3%;
+  height: auto;
+  padding-top: 1%;
+  padding-left: 1%;
+  margin-left: 1%;
+display: flex;
+float: left;
+position: fixed;
+
+
+}
+a{
+	text-decoration: none; 
+	color: #fff;
+
+}
+a:hover{
+	background-color: aliceblue;
+}
+
+.centro h3{
+font-family:Arial ;
+font-size: x-large;
+color: #fff;
+margin-left: 46%;
+}
+
